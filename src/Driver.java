@@ -58,7 +58,7 @@ public class Driver<A extends Transport> {
     }
 
     private boolean isNull(String value) {
-        return value == null || value.isEmpty() || value.isBlank();
+        return value == null || value.isBlank();
     }
 
     public int getExperience() {

@@ -92,7 +92,7 @@ public abstract class Transport {
 //    }
 
     public boolean isNull(String value) {
-        return value == null || value.isBlank() || value.isEmpty();
+        return value == null || value.isBlank();
     }
 
 //    public abstract void refuel();
